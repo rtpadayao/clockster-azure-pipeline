@@ -1,0 +1,5 @@
+# Python dependencies (requests, pandas, psycopg2, sqlalchemy)
+requests
+pandas
+psycopg2
+sqlalchemy

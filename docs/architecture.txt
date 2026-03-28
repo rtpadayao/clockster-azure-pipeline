@@ -1,0 +1,16 @@
+azure-clockster-pipeline/
+│
+├── raw_data/                # sample CSVs (attendance.csv, payroll.csv, etc.)
+├── notebooks/               # optional: exported Databricks notebooks (.ipynb or .dbc)
+├── scripts/                 # Python scripts for local demo (API ingestion, PostgreSQL load)
+├── docs/                    # documentation, diagrams, screenshots
+│   ├── architecture.png     # pipeline diagram
+│   ├── walkthrough.md       # step-by-step notes
+│   └── storyboard.md        # narration script for video
+├── .gitignore               # exclude venv, cache, temp files
+├── README.md                # project overview (pipeline steps, tools used)
+├── requirements.txt         # Python dependencies (requests, pandas, psycopg2, sqlalchemy)
+├── venv311/                 # local virtual environment (ignored in Git)
+├── clockster.pbix           # Power BI report file (optional, for demo)
+└── ci-cd/                   # optional folder for GitHub Actions/Azure DevOps YAML
+└── main.py                  # orchestrates ETL + analysis
